@@ -1,7 +1,5 @@
-// void Memory (double *p, int size);
-// void Filling (double *p, int size);
-// void Print (double *p, int size);
-// void Delete (double *p);
+#ifndef POINTER_H
+#define POINTER_H
 
 class Flag {
 private:
@@ -31,3 +29,5 @@ public:
     void Delete ();
     ~Pointer () {}; 
 };
+
+#endif //POINTER_H

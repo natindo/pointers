@@ -1,73 +1,55 @@
 #include <iostream>
+#include "pointer.h"
 
-class Flag {
-private:
-    bool flag;
-    bool flagSwitch;
+Flag::Flag () {
+    flag = true;
+    flagSwitch = true;
+}
 
-public:
-    Flag () {
-        flag = true;
-        flagSwitch = true;
-    }
+bool Flag::GetFlag () {
+    return flag;
+}
 
-    bool GetFlag () {
-        return flag;
-    }
+bool Flag::GetFlagSwitch () {
+    return flagSwitch;
+}
 
-    bool GetFlagSwitch () {
-        return flagSwitch;
-    }
+void Flag::SetFlag (bool flag) {
+    this->flag = flag;
+}
 
-    void SetFlag (bool flag) {
-        this->flag = flag;
-    }
+void Flag::SetFlagSwitch (bool flagSwitch) {
+    this->flagSwitch = flagSwitch;
+}
 
-    void SetFlagSwitch (bool flagSwitch) {
-        this->flagSwitch = flagSwitch;
-    }
-};
+Pointer::Pointer () {
+    std::cout << "Конструктор" << std::endl;
+    size = 0;
+    p = 0;
+}
 
-class Pointer {
-private:
+void Pointer::SetSize () {
     int size;
-    double *p;
+    std::cin >> size;
+    this->size = size;
+}
 
-public:
-    Pointer () {
-        std::cout << "Конструктор" << std::endl;
-        size = 0;
-        *p = 0;
-    }
+void Pointer::Memory () {
+    p = new double [size];
+}
 
-    void SetSize () {
-        int size;
-        std::cin >> size;
-        this->size = size;
-    }
-
-    void Memory () {
-        p = new double [size];
-    }
-
-    void Filling () {
-        for (size_t i = 0; i < size; i++) {
+void Pointer::Filling () {
+    for (size_t i = 0; i < size; i++) {
             p[i] = rand() % 20;
         }
     }
 
-    void Print () {
-        for (size_t i = 0; i < size; i++) {
-            std::cout << p[i] << "  " << std::endl;
-        }   
-    }
+void Pointer::Print () {
+    for (size_t i = 0; i < size; i++) {
+        std::cout << p[i] << "  " << std::endl;
+    }   
+}
 
-    void Delete () {
-        delete[] p;
-    }
-
-    ~Pointer () {
-        std::cout << "Деструктор" << std::endl;
-        delete[] p;
-    } 
-};
+void Pointer::Delete () {
+    delete[] p;
+}
