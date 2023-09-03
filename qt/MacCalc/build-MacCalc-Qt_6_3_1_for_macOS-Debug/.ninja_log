@@ -1,0 +1,9 @@
+# ninja log v5
+0	227	1685732079369271392	MacCalc_autogen/timestamp	7d91a10f711769b3
+0	227	1685732079369271392	MacCalc_autogen/mocs_compilation.cpp	7d91a10f711769b3
+0	227	1685732079369271392	/Users/natindo/Documents/Smth/С++/qt/MacCalc/build-MacCalc-Qt_6_3_1_for_macOS-Debug/MacCalc_autogen/timestamp	7d91a10f711769b3
+0	227	1685732079369271392	/Users/natindo/Documents/Smth/С++/qt/MacCalc/build-MacCalc-Qt_6_3_1_for_macOS-Debug/MacCalc_autogen/mocs_compilation.cpp	7d91a10f711769b3
+227	724	1685732079867026671	CMakeFiles/MacCalc.dir/MacCalc_autogen/mocs_compilation.cpp.o	5471ece03b193b9a
+227	730	1685732079874447732	CMakeFiles/MacCalc.dir/main.cpp.o	1dfb4c2d7c926f2b
+227	762	1685732079907020588	CMakeFiles/MacCalc.dir/mainwindow.cpp.o	fde08503b2a23da2
+762	930	1685732080075968578	MacCalc.app/Contents/MacOS/MacCalc	eb3b4a4c884003a3

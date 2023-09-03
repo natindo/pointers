@@ -1,0 +1,5 @@
+/Users/natindo/Documents/Smth/С++/qt/MacCalc/build-MacCalc-Qt_6_3_1_for_macOS-Debug/CMakeFiles/MacCalc.dir
+/Users/natindo/Documents/Smth/С++/qt/MacCalc/build-MacCalc-Qt_6_3_1_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Users/natindo/Documents/Smth/С++/qt/MacCalc/build-MacCalc-Qt_6_3_1_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Users/natindo/Documents/Smth/С++/qt/MacCalc/build-MacCalc-Qt_6_3_1_for_macOS-Debug/CMakeFiles/MacCalc_autogen_timestamp_deps.dir
+/Users/natindo/Documents/Smth/С++/qt/MacCalc/build-MacCalc-Qt_6_3_1_for_macOS-Debug/CMakeFiles/MacCalc_autogen.dir

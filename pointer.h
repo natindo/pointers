@@ -1,6 +1,8 @@
 #ifndef POINTER_H
 #define POINTER_H
 
+void testPointer ();
+
 class Flag {
 private:
     bool flag;

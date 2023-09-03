@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MacCalc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MacCalc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MacCalc-Debug-1047d20954828c66b0d4.json",
+					"name" : "MacCalc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MacCalc_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MacCalc_autogen-Debug-d90eca39e683e15ef6dc.json",
+					"name" : "MacCalc_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MacCalc_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MacCalc_autogen_timestamp_deps-Debug-8641ddeceff6a0878f91.json",
+					"name" : "MacCalc_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/natindo/Documents/Smth/\u0421++/qt/MacCalc/build-MacCalc-Qt_6_3_1_for_macOS-Debug",
+		"source" : "/Users/natindo/Documents/Smth/\u0421++/qt/MacCalc/MacCalc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
